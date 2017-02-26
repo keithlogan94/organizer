@@ -1,0 +1,139 @@
+<li  id="Lead-Pipe" min-value="150" time-stamp="1488069324" quantity="900">Lead Pipe</li>
+<li  id="Hammer" min-value="174" time-stamp="1488069324" quantity="307892">Hammer</li>
+<li  id="Crow-Bar" min-value="250" time-stamp="1488069324" quantity="44681">Crow Bar</li>
+<li  id="Spear" min-value="499" time-stamp="1488069324" quantity="8266">Spear</li>
+<li  id="Knuckle-Dusters" min-value="545" time-stamp="1488069324" quantity="935">Knuckle Dusters</li>
+<li  id="Plastic-Sword" min-value="665" time-stamp="1488069324" quantity="345">Plastic Sword</li>
+<li  id="Pen-Knife" min-value="760" time-stamp="1488069324" quantity="404">Pen Knife</li>
+<li  id="Leather-Bull-Whip" min-value="777" time-stamp="1488069324" quantity="1458">Leather Bull Whip</li>
+<li  id="Frying-Pan" min-value="898" time-stamp="1488069324" quantity="604">Frying Pan</li>
+<li  id="Sai" min-value="999" time-stamp="1488069324" quantity="2756">Sai</li>
+<li  id="Butterfly-Knife" min-value="1298" time-stamp="1488069324" quantity="449">Butterfly Knife</li>
+<li  id="Dagger" min-value="1500" time-stamp="1488069324" quantity="631">Dagger</li>
+<li  id="Swiss-Army-Knife" min-value="1998" time-stamp="1488069324" quantity="966">Swiss Army Knife</li>
+<li  id="Chain-Whip" min-value="2299" time-stamp="1488069324" quantity="771">Chain Whip</li>
+<li  id="Bo-Staff" min-value="2999" time-stamp="1488069324" quantity="334">Bo Staff</li>
+<li  id="Axe" min-value="3197" time-stamp="1488069324" quantity="1781">Axe</li>
+<li  id="Ninja-Claws" min-value="5200" time-stamp="1488069324" quantity="713">Ninja Claws</li>
+<li  id="Scimitar" min-value="6021" time-stamp="1488069324" quantity="303">Scimitar</li>
+<li  id="Taser" min-value="7500" time-stamp="1488069324" quantity="912">Taser</li>
+<li  id="Fine-Chisel" min-value="8500" time-stamp="1488069324" quantity="835">Fine Chisel</li>
+<li  id="Rusty-Sword" min-value="10998" time-stamp="1488069324" quantity="339">Rusty Sword</li>
+<li  id="Chainsaw" min-value="12000" time-stamp="1488069324" quantity="494">Chainsaw</li>
+<li  id="Katana" min-value="13000" time-stamp="1488069324" quantity="1224">Katana</li>
+<li  id="Ice-Pick" min-value="15999" time-stamp="1488069324" quantity="332">Ice Pick</li>
+<li  id="Wooden-Nunchakus" min-value="17999" time-stamp="1488069324" quantity="1386">Wooden Nunchakus</li>
+<li  id="Cricket-Bat" min-value="18000" time-stamp="1488069324" quantity="409">Cricket Bat</li>
+<li  id="Blood-Spattered-Sickle" min-value="34999" time-stamp="1488069324" quantity="1014">Blood Spattered Sickle</li>
+<li  id="Kama" min-value="41000" time-stamp="1488069324" quantity="229">Kama</li>
+<li  id="Twin-Tiger-Hooks" min-value="47000" time-stamp="1488069324" quantity="275">Twin Tiger Hooks</li>
+<li  id="Samurai-Sword" min-value="55000" time-stamp="1488069324" quantity="285">Samurai Sword</li>
+<li  id="Claymore-Sword" min-value="75000" time-stamp="1488069324" quantity="96">Claymore Sword</li>
+<li  id="Wushu-Double-Axes" min-value="81499" time-stamp="1488069324" quantity="366">Wushu Double Axes</li>
+<li  id="Kodachi-Swords" min-value="89000" time-stamp="1488069324" quantity="704">Kodachi Swords</li>
+<li  id="Fruitcake" min-value="90000" time-stamp="1488069324" quantity="5112">Fruitcake</li>
+<li  id="Macana" min-value="98000" time-stamp="1488069324" quantity="563">Macana</li>
+<li  id="Guandao" min-value="169999" time-stamp="1488069324" quantity="101">Guandao</li>
+<li  id="Diamond-Icicle" min-value="294950" time-stamp="1488069324" quantity="316">Diamond Icicle</li>
+<li  id="Metal-Nunchakus" min-value="460000" time-stamp="1488069324" quantity="472">Metal Nunchakus</li>
+<li  id="Diamond-Bladed-Knife" min-value="850000" time-stamp="1488069324" quantity="1137">Diamond Bladed Knife</li>
+<li  id="Pair-of-Ice-Skates" min-value="940000" time-stamp="1488069324" quantity="92">Pair of Ice Skates</li>
+<li  id="Golden-Broomstick" min-value="2980000" time-stamp="1488069324" quantity="65">Golden Broomstick</li>
+<li  id="Ivory-Walking-Cane" min-value="1399999" time-stamp="1488069324" quantity="216">Ivory Walking Cane</li>
+<li  id="Petrified-Humerus" min-value="3000000" time-stamp="1488069324" quantity="45">Petrified Humerus</li>
+<li  id="Pillow" min-value="6100000" time-stamp="1488069324" quantity="67">Pillow</li>
+<li  id="Mace" min-value="7800000" time-stamp="1488069324" quantity="47">Mace</li>
+<li  id="Pair-of-High-Heels" min-value="13000000" time-stamp="1488069324" quantity="52">Pair of High Heels</li>
+<li  id="Yasukuni-Sword" min-value="16200000" time-stamp="1488069324" quantity="58">Yasukuni Sword</li>
+<li  id="Devil's-Pitchfork" min-value="47500000" time-stamp="1488069324" quantity="54">Devil's Pitchfork</li>
+<li  id="Naval-Cutlass-Sword" min-value="58999995" time-stamp="1488069324" quantity="21">Naval Cutlass Sword</li>
+<li  id="Dual-Axes" min-value="780000000" time-stamp="1488069324" quantity="9">Dual Axes</li>
+<li  id="Dual-Scimitars" min-value="800000000" time-stamp="1488069324" quantity="10">Dual Scimitars</li>
+<li  id="Dual-Samurai-Swords" min-value="965999999" time-stamp="1488069324" quantity="14">Dual Samurai Swords</li>
+<li  id="Special-Fruitcake" min-value="2000000000" time-stamp="1488069324" quantity="1">Special Fruitcake</li>
+<li  id="Sawed-Off-Shotgun" min-value="1" time-stamp="1488069324" quantity="1960">Sawed-Off Shotgun</li>
+<li  id="MP5k" min-value="2400" time-stamp="1488069324" quantity="692">MP5k</li>
+<li  id="TMP" min-value="3000" time-stamp="1488069324" quantity="551">TMP</li>
+<li  id="Benelli-M1-Tactical" min-value="3399" time-stamp="1488069324" quantity="1178">Benelli M1 Tactical</li>
+<li  id="MP5-Navy" min-value="3880" time-stamp="1488069324" quantity="846">MP5 Navy</li>
+<li  id="Skorpian" min-value="4500" time-stamp="1488069324" quantity="870">Skorpian</li>
+<li  id="Sks-Carbine" min-value="5200" time-stamp="1488069324" quantity="229">Sks Carbine</li>
+<li  id="Vektor-CR-21" min-value="6666" time-stamp="1488069324" quantity="643">Vektor CR-21</li>
+<li  id="Ithaca-37" min-value="7000" time-stamp="1488069324" quantity="532">Ithaca 37</li>
+<li  id="P90" min-value="7250" time-stamp="1488069324" quantity="914">P90</li>
+<li  id="AK74u" min-value="9000" time-stamp="1488069324" quantity="948">AK74u</li>
+<li  id="Bushmaster-Carbon-15-Type-21s" min-value="10250" time-stamp="1488069324" quantity="1751">Bushmaster Carbon 15 Type 21s</li>
+<li  id="AK-47" min-value="11900" time-stamp="1488069324" quantity="326">AK-47</li>
+<li  id="XM8-Rifle" min-value="12750" time-stamp="1488069324" quantity="175">XM8 Rifle</li>
+<li  id="MP-40" min-value="14000" time-stamp="1488069324" quantity="687">MP 40</li>
+<li  id="M4A1-Colt-Carbine" min-value="19000" time-stamp="1488069324" quantity="101">M4A1 Colt Carbine</li>
+<li  id="Thompson" min-value="19000" time-stamp="1488069324" quantity="455">Thompson</li>
+<li  id="Benelli-M4-Super" min-value="23999" time-stamp="1488069324" quantity="229">Benelli M4 Super</li>
+<li  id="M16-A2-Rifle" min-value="36000" time-stamp="1488069324" quantity="93">M16 A2 Rifle</li>
+<li  id="Heckler-&-Koch-SL8" min-value="38000" time-stamp="1488069324" quantity="145">Heckler & Koch SL8</li>
+<li  id="Sig-550" min-value="57999" time-stamp="1488069324" quantity="1378">Sig 550</li>
+<li  id="Steyr-AUG" min-value="76990" time-stamp="1488069324" quantity="156">Steyr AUG</li>
+<li  id="Mag-7" min-value="85000" time-stamp="1488069324" quantity="1777">Mag 7</li>
+<li  id="Enfield-SA-80" min-value="323000" time-stamp="1488069324" quantity="217">Enfield SA-80</li>
+<li  id="Tavor-TAR-21" min-value="385000" time-stamp="1488069324" quantity="221">Tavor TAR-21</li>
+<li  id="9mm-Uzi" min-value="739000" time-stamp="1488069324" quantity="131">9mm Uzi</li>
+<li  id="Minigun" min-value="2300000" time-stamp="1488069324" quantity="326">Minigun</li>
+<li  id="M249-PARA-LMG" min-value="949500" time-stamp="1488069324" quantity="71">M249 PARA LMG</li>
+<li  id="Swiss-Army-SG-550" min-value="7500000" time-stamp="1488069324" quantity="48">Swiss Army SG 550</li>
+<li  id="Dual-Hammers" min-value="470000000" time-stamp="1488069324" quantity="21">Dual Hammers</li>
+<li  id="Anti-Tank" min-value="18000000" time-stamp="1488069324" quantity="37">Anti Tank</li>
+<li  id="ArmaLite-M-15A4-Rifle" min-value="19830000" time-stamp="1488069324" quantity="312">ArmaLite M-15A4 Rifle</li>
+<li  id="Lorcin-380" min-value="200" time-stamp="1488069324" quantity="651">Lorcin 380</li>
+<li  id="Flare-Gun" min-value="248" time-stamp="1488069324" quantity="665">Flare Gun</li>
+<li  id="Glock-18" min-value="280" time-stamp="1488069324" quantity="19182">Glock 18</li>
+<li  id="Raven-MP25" min-value="373" time-stamp="1488069324" quantity="721">Raven MP25</li>
+<li  id="Springfield-1911-A1" min-value="400" time-stamp="1488069324" quantity="573">Springfield 1911-A1</li>
+<li  id="Taurus" min-value="450" time-stamp="1488069324" quantity="3646">Taurus</li>
+<li  id="Ruger-22/45" min-value="739" time-stamp="1488069324" quantity="1436">Ruger 22/45</li>
+<li  id="Crossbow" min-value="780" time-stamp="1488069324" quantity="4989">Crossbow</li>
+<li  id="USP" min-value="1880" time-stamp="1488069324" quantity="526">USP</li>
+<li  id="Beretta-M9" min-value="2000" time-stamp="1488069324" quantity="407">Beretta M9</li>
+<li  id="Blowgun" min-value="2040" time-stamp="1488069324" quantity="265">Blowgun</li>
+<li  id="S&W-Revolver" min-value="3500" time-stamp="1488069324" quantity="3754">S&W Revolver</li>
+<li  id="Beretta-92FS" min-value="5999" time-stamp="1488069324" quantity="268">Beretta 92FS</li>
+<li  id="Slingshot" min-value="7999" time-stamp="1488069324" quantity="509">Slingshot</li>
+<li  id="Fiveseven" min-value="9498" time-stamp="1488069324" quantity="371">Fiveseven</li>
+<li  id="Magnum" min-value="21950" time-stamp="1488069324" quantity="69">Magnum</li>
+<li  id="S&W-M29" min-value="43999" time-stamp="1488069324" quantity="158">S&W M29</li>
+<li  id="Desert-Eagle" min-value="45000" time-stamp="1488069324" quantity="198">Desert Eagle</li>
+<li  id="BT-MP9" min-value="53000" time-stamp="1488069324" quantity="753">BT MP9</li>
+<li  id="Luger" min-value="70000" time-stamp="1488069324" quantity="287">Luger</li>
+<li  id="Blunderbuss" min-value="73500" time-stamp="1488069324" quantity="1616">Blunderbuss</li>
+<li  id="Cobra-Derringer" min-value="79997" time-stamp="1488069324" quantity="956">Cobra Derringer</li>
+<li  id="Qsz-92" min-value="140000" time-stamp="1488069324" quantity="311">Qsz-92</li>
+<li  id="Harpoon" min-value="235000" time-stamp="1488069324" quantity="125">Harpoon</li>
+<li  id="Dual-92G-Berettas" min-value="450000" time-stamp="1488069324" quantity="99">Dual 92G Berettas</li>
+<li  id="RPG-Launcher" min-value="1100000000" time-stamp="1488069324" quantity="7">RPG Launcher</li>
+<li  id="Flame-Thrower" min-value="2750000" time-stamp="1488069324" quantity="112">Flame Thrower</li>
+<li  id="Leather-Gloves" min-value="1100" time-stamp="1488069324" quantity="1585">Leather Gloves</li>
+<li  id="Leather-Helmet" min-value="1500" time-stamp="1488069324" quantity="17320">Leather Helmet</li>
+<li  id="Leather-Boots" min-value="1700" time-stamp="1488069324" quantity="411">Leather Boots</li>
+<li  id="Leather-Vest" min-value="1700" time-stamp="1488069324" quantity="2744">Leather Vest</li>
+<li  id="Chain-Mail" min-value="3500" time-stamp="1488069324" quantity="335">Chain Mail</li>
+<li  id="Flak-Jacket" min-value="4950" time-stamp="1488069324" quantity="732">Flak Jacket</li>
+<li  id="Police-Vest" min-value="7999" time-stamp="1488069324" quantity="916">Police Vest</li>
+<li  id="Construction-Helmet" min-value="12900" time-stamp="1488069324" quantity="741">Construction Helmet</li>
+<li  id="Hiking-Boots" min-value="11000" time-stamp="1488069324" quantity="2328">Hiking Boots</li>
+<li  id="Bulletproof-Vest" min-value="40000" time-stamp="1488069324" quantity="191">Bulletproof Vest</li>
+<li  id="Full-Body-Armor" min-value="65000" time-stamp="1488069324" quantity="309">Full Body Armor</li>
+<li  id="Leather-Pants" min-value="72500" time-stamp="1488069324" quantity="147">Leather Pants</li>
+<li  id="Safety-Boots" min-value="80000" time-stamp="1488069324" quantity="247">Safety Boots</li>
+<li  id="WWII-Helmet" min-value="179000" time-stamp="1488069324" quantity="318">WWII Helmet</li>
+<li  id="Kevlar-Trench-Coat" min-value="490000" time-stamp="1488069324" quantity="483">Kevlar Trench Coat</li>
+<li  id="Medieval-Helmet" min-value="530000" time-stamp="1488069324" quantity="381">Medieval Helmet</li>
+<li  id="Outer-Tactical-Vest" min-value="771800" time-stamp="1488069324" quantity="195">Outer Tactical Vest</li>
+<li  id="Combat-Gloves" min-value="1890000" time-stamp="1488069324" quantity="985">Combat Gloves</li>
+<li  id="Combat-Boots" min-value="1985000" time-stamp="1488069324" quantity="801">Combat Boots</li>
+<li  id="Combat-Pants" min-value="2500000" time-stamp="1488069324" quantity="864">Combat Pants</li>
+<li  id="Combat-Vest" min-value="2799000" time-stamp="1488069324" quantity="170">Combat Vest</li>
+<li  id="Combat-Helmet" min-value="2900000" time-stamp="1488069324" quantity="374">Combat Helmet</li>
+<li  id="Liquid-Body-Armor" min-value="7600000" time-stamp="1488069324" quantity="56">Liquid Body Armor</li>
+<li  id="Flexible-Body-Armor" min-value="14219995" time-stamp="1488069324" quantity="319">Flexible Body Armor</li>
+<li  id="Motorcycle-Helmet" min-value="57988888" time-stamp="1488069324" quantity="60">Motorcycle Helmet</li>
+<li  id="Kevlar-Gloves" min-value="418990" time-stamp="1488069324" quantity="179">Kevlar Gloves</li>
+<li  id="Welding-Helmet" min-value="770000000" time-stamp="1488069324" quantity="5">Welding Helmet</li>
