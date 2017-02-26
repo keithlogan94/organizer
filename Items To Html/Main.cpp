@@ -10,13 +10,13 @@ class Jason {
 private:
 	string jsonObject = "{ \n";
 	vector<string> keyValuePair;
-public:
 	inline void formatJson() {
 		for (int i = 0; i < keyValuePair.size(); i++) {
 			jsonObject += keyValuePair.at(i) + (i == keyValuePair.size() -1/*last*/ ? "" : ",") + '\n';
 		}
 		jsonObject += "\n }";
 	}
+public:
 	inline const string getJson() { formatJson(); return jsonObject; }
 	inline void addKeyValue(string key, string value) {
 		keyValuePair.push_back(string("\"" + key + "\":" + "\"" + value + "\""));
@@ -78,9 +78,6 @@ private:
 	inline string getAttribute(string attr, string value) {
 		return string(attr + "=\"") + value + string("\"");
 	}
-	inline const string getPrice() const { return to_string(price); }
-	inline const string getQty() const { return to_string(qty); }
-	inline const string getTime() const { return to_string(time); }
 	inline const string replaceSpace(char c, string str) {
 		string str2;
 		for (auto ch : str)
@@ -94,6 +91,9 @@ private:
 		return str2;
 	}
 public:
+	inline const string getPrice() const { return to_string(price); }
+	inline const string getQty() const { return to_string(qty); }
+	inline const string getTime() const { return to_string(time); }
 	inline const string getName() const { return name; }
 	inline void setName(string name) { this->name = name; }
 	inline void setQty(int qty) { this->qty = qty; }
@@ -178,15 +178,30 @@ int main(int argc, char ** argv) {
 		itemsByName[item.getName()].push_back(item);
 	}
 
-
+	vector<Jason> jsons;
+	for (map<string, vector<Item>>::iterator list = itemsByName.begin(); list != itemsByName.end(); list++) {
+		Jason jason;
+		jason.addKeyValue("itemName", list->second.at(0).getName());
+		vector<Jason> prices;
+		for (vector<Item>::iterator itemInList = (*list).second.begin(); itemInList != (*list).second.end(); itemInList++) {
+			//prices.push_back(atoi(itemInList->getPrice().c_str()));
+			Jason price;
+			price.addKeyValue("timestamp", atoi(itemInList->getTime().c_str()));
+			price.addKeyValue("price", atoi(itemInList->getPrice().c_str()));
+			prices.push_back(price);
+		}
+		jason.addKeyValue("costFluctation", prices);
+		jsons.push_back(jason);
+	}
+	Jason listOfItems;
+	listOfItems.addKeyValue("list", jsons);
 
 	//write items to file
 	string filename = argv[2];
 	ofstream ofs(filename, ios::beg);
 	if (ofs.is_open())
 	{
-		for (auto item : iList)
-			ofs << item.getLi() << '\n';
+		ofs << listOfItems.getJson();
 		ofs.close();
 	}
 	cout << "data successfully transfered from " << argv[1] << " to " << filename;
