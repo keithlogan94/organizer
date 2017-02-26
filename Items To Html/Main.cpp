@@ -2,7 +2,71 @@
 #include <string>
 #include <fstream>
 #include <vector>
+#include <map>
 using namespace std;
+
+
+class Jason {
+private:
+	string jsonObject = "{ \n";
+	vector<string> keyValuePair;
+public:
+	inline void formatJson() {
+		for (int i = 0; i < keyValuePair.size(); i++) {
+			jsonObject += keyValuePair.at(i) + (i == keyValuePair.size() -1/*last*/ ? "" : ",") + '\n';
+		}
+		jsonObject += "\n }";
+	}
+	inline const string getJson() { formatJson(); return jsonObject; }
+	inline void addKeyValue(string key, string value) {
+		keyValuePair.push_back(string("\"" + key + "\":" + "\"" + value + "\""));
+	}
+	inline void addKeyValue(string key, int value) {
+		keyValuePair.push_back(string("\"" + key + "\":" + to_string(value)));
+	}
+	inline void addKeyValue(string key, double value) {
+		keyValuePair.push_back(string("\"" + key + "\":" + to_string(value)));
+	}
+	inline void addKeyValue(string key, Jason json) {
+		keyValuePair.push_back(string("\"" + key + "\":" + json.getJson()));
+	}
+	inline void addKeyValue(string key, vector<int> values) {
+		string keyValue = "";
+		keyValue += "\"" + key + "\": [";
+		for (int i = 0; i < values.size(); i++) {
+			keyValue += to_string(values.at(i)) + string((i == values.size() - 1 ? "" : ", ")) + string((i % 5 == 0 ? "\n" : ""));
+		}
+		keyValue += "]";
+		keyValuePair.push_back(keyValue);
+	}
+	inline void addKeyValue(string key, vector<double> values) {
+		string keyValue = "";
+		keyValue += "\"" + key + "\": [";
+		for (int i = 0; i < values.size(); i++) {
+			keyValue += to_string(values.at(i)) + string((i == values.size() - 1 ? "" : ", ")) + string((i % 5 == 0 ? "\n" : ""));
+		}
+		keyValue += "]";
+		keyValuePair.push_back(keyValue);
+	}
+	inline void addKeyValue(string key, vector<string> values) {
+		string keyValue = "";
+		keyValue += "\"" + key + "\": [";
+		for (int i = 0; i < values.size(); i++) {
+			keyValue += "\"" + values.at(i) + "\"" + string((i == values.size() - 1 ? "" : ", ")) + string((i % 5 == 0 ? "\n" : ""));
+		}
+		keyValue += "]";
+		keyValuePair.push_back(keyValue);
+	}
+	inline void addKeyValue(string key, vector<Jason> values) {
+		string keyValue = "";
+		keyValue += "\"" + key + "\": [";
+		for (int i = 0; i < values.size(); i++) {
+			keyValue += values.at(i).getJson() + string((i == values.size() - 1 ? "" : ", ")) + "\n";
+		}
+		keyValue += "]";
+		keyValuePair.push_back(keyValue);
+	}
+};
 
 class Item {
 private:
@@ -14,7 +78,6 @@ private:
 	inline string getAttribute(string attr, string value) {
 		return string(attr + "=\"") + value + string("\"");
 	}
-	inline const string getName() const { return name; }
 	inline const string getPrice() const { return to_string(price); }
 	inline const string getQty() const { return to_string(qty); }
 	inline const string getTime() const { return to_string(time); }
@@ -31,6 +94,7 @@ private:
 		return str2;
 	}
 public:
+	inline const string getName() const { return name; }
 	inline void setName(string name) { this->name = name; }
 	inline void setQty(int qty) { this->qty = qty; }
 	inline void setPrice(int price) { this->price = price; }
@@ -106,6 +170,17 @@ int main(int argc, char ** argv) {
 		}
 		ifs.close();
 	}
+	//we have extracted all of the items
+
+	//each item in chronological order in its own list
+	map<string, vector<Item>> itemsByName;
+	for (auto item : iList) {
+		itemsByName[item.getName()].push_back(item);
+	}
+
+
+
+	//write items to file
 	string filename = argv[2];
 	ofstream ofs(filename, ios::beg);
 	if (ofs.is_open())
